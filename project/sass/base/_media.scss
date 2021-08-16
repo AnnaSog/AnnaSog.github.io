@@ -1,0 +1,453 @@
+@media(max-width: 1200px) {
+    .container {
+        max-width: 993px;
+    }
+    .contacts {
+        height: 110px;
+        margin-bottom: 20px;
+    }   
+    
+    .promo {
+        padding: 39px 30px 0 30px;
+        &__phone {
+            transform: translate(181%, -63%);
+        }
+    }
+
+    .prengi {
+        &__questions {
+            justify-content: center;
+        }
+        
+        .questions {
+            margin: 15px;
+        } 
+
+        &__answers {
+            justify-content: center;
+        }
+        
+        .answers {
+            margin: 15px;
+        } 
+    }
+
+    
+    .advantage {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 570px);
+            grid-template-rows: repeat(6, 355px);
+            justify-content: center;
+        }
+        &__items {
+            margin-top: 15px;
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .contacts {
+        .info {
+            flex-direction: column;
+            img {
+                margin-bottom: 5px;
+            }
+        }
+    }
+    
+    .promo {
+        &__menu {
+            justify-content: flex-end;
+            a {
+                margin-right: 20px;
+            }
+        }
+        &__phone {
+            transform: translate(181%, -50%);
+        }
+    }
+    
+
+    .proposal {
+        .macbook {
+            img {
+                max-width: 100%;
+            }
+        }
+        .carousel__inner {
+            img {
+                max-width: 74%;
+                bottom: 64px;
+                right: 92px;
+            }
+        }
+    }
+
+    .storage {
+        .title_head {
+            transform: translateX(50%);
+        }
+    }
+     
+    .storage {
+        &__bg_cloud {
+            span {
+               left: 23%; 
+            }
+        }
+
+        &__bg_server {
+            span {
+              right: 23%;  
+            }  
+        }
+    }
+    
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .contacts {
+        display: none;
+    }
+    .promo {
+        &__menu {
+            display: none;
+        }
+        &__phone {
+            transform: translate(142%,-30%);
+            width: 40%;
+        }
+        &__overlay {
+            background-color: rgba(0,0,0,0.8);
+        }
+        .modal {
+            width: auto;
+            min-height: auto;
+
+            .title_fz20 {
+                margin-top: 20px;
+                font-size: 18px;
+            }
+        }
+        .feed-form_mt25 {
+            margin-top: 0;
+            padding: 25px 88px 25px 88px;
+            input {
+                &:nth-child(3) {
+                    margin-bottom: 0; 
+                    margin-right: 0;
+                }
+            }
+            button {
+                height: 50px;
+            }
+        }
+
+        .title_fz30 {
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+
+    .proposal {
+        .title_fz14White {
+            font-size: 12px;
+        }
+
+        .carousel__inner {
+           img { 
+            max-width: 73%;
+            bottom: 50px;
+            right: 72px;
+           }
+        } 
+    }
+
+    .advantage {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit,500px);
+        }
+        &__items {
+            span {
+                width: 500px;
+            }
+        }
+        .title_fz23 {
+            font-size: 20px;
+        }
+    }
+        
+    .storage {
+        .title_head {
+            transform: translateX(27%);
+        }
+
+        &__bg_cloud {
+            span {
+               left: 15%; 
+            }
+            .cloud {
+                margin-right: 36px;
+                margin-left: 16px;
+            }
+        }
+
+        &__bg_server {
+            span {
+              right: 15%;  
+            }  
+            .server {
+                margin-left: 36px;
+                margin-right: 16px;
+            }
+        }
+    } 
+}
+
+@media(max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .promo {
+        height: 492px;
+        &__title {
+            width: auto;
+        }
+        &__phone {
+            display: none;
+        }
+        &__btn {
+            width: 200px;
+            margin-top: 25px;
+        }
+        .title_fz42 {
+            font-size: 30px;
+            line-height: 38px;
+            margin-top: 50px;
+        }
+        .title_fz24 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .modal {
+            &__close {
+            top: -43px;
+            right: 16px;
+            font-size: 52px;
+            }
+            .title_fz20 {
+                display: none;
+            }
+        }
+        .feed-form_mt25 {
+            padding: 10px 20px 30px 20px;
+
+        }
+        .title_fz21 {
+            font-size: 20px;
+            line-height: 56px;
+        }
+
+        .menu {
+            &__block {
+                width: 250px;
+                padding-left: 0;
+            }
+        }
+      
+       
+    }
+    .hamburger_wrapper {
+        .menu {
+            &__link {
+                padding-left: 15px;
+                font-size: 20px;
+                line-height: 35px;
+            }
+            &__list {
+                padding-left: 15px;
+            }
+        }
+       
+    }
+
+    .prengi {
+        padding: 50px 20px 60px 20px;
+        .questions {
+            max-width: 100%;
+            margin: 0 0 15px 0;
+            img {
+                max-width: 100%
+            }
+        }
+        .answers {
+            max-width: 100%;
+            margin: 0 0 15px 0;
+            img {
+                max-width: 100%
+            }
+        } 
+    }
+    
+    .proposal {
+        max-height: 1000px;
+        padding: 50px 12px 40px 12px;
+
+        .title_fz30 {
+            font-size: 26px;
+        }
+        .carousel__inner {
+            img {
+                max-width: 73%;
+                bottom: 29px;
+                right: 43px;
+            }
+        }
+        &__tabs {
+            display: grid;
+            grid-template-columns: repeat(2, 106px);
+            grid-template-rows: auto;
+            border:none;
+            justify-content: center;
+            height: 184px;
+            span {
+                display: none;
+            }
+            .tab {
+                border: 1px solid #fff;
+            }
+        }
+        .title_fz14White {
+            text-align: center;
+        }
+    }  
+    
+    .advantage {
+        .title_fz30 {
+            font-size: 26px;
+        }
+        &__wrapper {
+            margin-top: 20px;
+            grid-template-columns: repeat(auto-fit, 310px);
+            grid-template-rows: repeat(6, 186px);
+        }
+        &__items {
+            background-position: center center;
+            background-size: cover;
+            span {
+                display: none;
+            }
+            .title_fz23 {
+                position: relative;
+                top: 50px;
+                left: 0;
+                right: 0;
+                font-size: 18px;
+                line-height: 23px;
+            }
+        }
+    }
+
+    .storage {
+        .title_fz30 {
+            font-size: 26px;
+        }
+        .title_head {
+            position: relative;
+            color:black;
+            transform: none;
+        }
+        &__wrapper {
+            margin-top: 20px;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            span {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        .title_bg {
+            margin-top: 200px;
+        }
+        .title_fz18 {
+            margin-bottom: 40px;
+        }
+        &__bg_server {
+            span {
+                right: 58%;
+                top: 72%;  
+            }
+        }
+        &__bg_cloud {
+            span {
+                left: 58%;
+                top: 29%;  
+            }
+        }
+    
+    }
+
+
+    .contactYou {
+        padding: 80px 12px;
+        &__img {
+            img {
+                max-width: 100%;
+            }
+        }
+        .title_fz30 {
+            font-size: 26px;
+        }
+        .modal {
+            width: 80%;
+            padding-left: 30px;
+            min-height: 390px;
+            &__close {
+                position: absolute;
+                top: -30px;
+                right: -18px;
+                font-size: 38px;
+            }
+            .feed-form {
+                width: 196px;
+               input {
+                height: 48px;
+                font-size: 12px;
+               }
+            }
+            .btn {
+                width: 196px;
+                height: 48px;
+                font-size: 12px;
+            }
+            
+        }
+            
+    }
+
+    .footer {
+        text-align: center;
+        padding: 30px 15px;
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__loco  {
+            margin-bottom: 30px;
+            img {
+              max-width: 38%;  
+            }
+            
+        }
+        &__social {
+            margin-top: 30px;
+        }
+    }
+}
