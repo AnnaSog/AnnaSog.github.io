@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drag & Drop</title>
+  </head>
+  <body>
+    <div>
+      <div class="col">
+         
+
+          <div class="row">
+
+            <div class="screen">
+              <h1>Выберите время</h1>
+              <ul class="time-list" id="time-list">
+                <li>
+                  <button class="time-btn" data-time="15">
+                    15 сек
+                  </button>
+                </li>
+                <li>
+                  <button class="time-btn" data-time="20">
+                    20 сек
+                  </button>
+                </li>
+                <li>
+                  <button class="time-btn" data-time="25">
+                    25 сек
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="screen">
+              <h3>Осталось <span id="time">00:00</span></h3>
+            
+            </div>
+            <div class="place">
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+            </div>
+            <div class="place">
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+            </div>
+            <div class="place">
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+              <div class="item" draggable="true"> <img class="balls" src="balls/1036159415-removebg-preview.png" alt="balls"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="placeholder"> <img class="basket" src="balls/basketball_net.png" alt="basket"></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+} 
+
+.col {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50px 0 50px;
+}
+
+
+.item:active {
+  cursor: grabbing;
+}
+
+.place {
+  display: flex;
+  justify-content: center;
+  height: 135px;
+}
+
+.start {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.done {
+  background: linear-gradient(90deg, #1fb355 0%, #8fd3f4 100%);
+}
+
+.hold {
+  border: 5px solid #f48f8f;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered{
+  border: 2px solid  #f48f8f;
+}
+
+.balls {
+  width: 113px;
+  height: 135px;
+}
+
+.basket {
+  width: 100%;
+}
+
+.placeholder {
+  margin-top: 50%;
+  margin-left: 10%;
+  width: 353px;
+  height: 136px;
+}
+
+.time-btn {
+  background-color: transparent;
+  border: 2px solid #C0C0C0;
+  cursor: pointer;
+  font-family: inherit;
+  padding: .5rem 1rem;
+  font-size: 20px;
+}
+
+.time-btn:hover {
+  border: 2px solid #16D9E3;
+  color: #16D9E3;
+}
+
+.time-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.time-list li {
+  margin: 0 10px;
+}
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
